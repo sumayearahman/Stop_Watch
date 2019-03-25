@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textColor="#080808"
+        android:textSize="40dp" />
+    <Button
+        android:id="@+id/start"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="125dp"
+        android:text="Start"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1bc626"
+        android:onClick="onClickStart"
+        />
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="125dp"
+        android:text="Stop"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#1b5ac6"
+        android:onClick="onClickStop"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickReset"
+        android:text="Reset"
+        android:textColor="#c61ba7"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
